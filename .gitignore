@@ -1,0 +1,20 @@
+# WorkBuddy 本地数据
+# memory/ 是 AI 的会话工作日志，属于个人本地记忆，不进版本库
+.workbuddy/memory/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 日志
+*.log
+npm-debug.log*
